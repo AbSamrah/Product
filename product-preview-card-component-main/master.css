@@ -1,0 +1,48 @@
+*{
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+    
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+p{
+    color: hsl(228, 12%, 48%);
+}
+
+.Box{
+    width: 500px;
+    align-content: center;
+    background-color: blue;
+}
+
+.Card{
+    border-radius: 20px;
+    display: flex;
+    background-color: white;
+    width: 500px;
+    justify-self: center;
+    align-content: center;
+}
+
+.Photo{
+
+}
+
+.Desc{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+.Add{
+    background-color: hsl(158, 42%, 18%);
+}
+
+.Price p{
+    display: inline;
+}
